@@ -20,7 +20,7 @@ const Home = () => {
     <div>
       <Hero />
       <section className="py-16">
-        <div className="mx-auto pl-[30px]">
+        <div className="mx-auto px-[30px] lg:px-[120px]">
           <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm md:max-w-none md:mx-0 ">
             {filteredItem.map((item) => {
               return <Items item={item} key={item.id} />;

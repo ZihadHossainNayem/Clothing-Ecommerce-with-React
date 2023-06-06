@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="bg-hero bg-no-repeat bg-cover bg-center h-[600px] py-24">
-      <div className="px-8 mx-auto flex justify-around h-full">
+      <div className="px-8 lg:px-32 mx-auto flex justify-around h-full">
         {/* text */}
-        <div className="flex flex-col justify-center ">
+        <div className="flex flex-col justify-center">
           <div className="font-semibold flex item-center uppercase">
             <div className="w-10 h-[2px] bg-rose-500 mr-3 my-auto "></div> New
             Trend
           </div>
           <h1 className="font-light mb-4 text-[70px] leading-[1.1]">
-            SUMMER <br /> SALE <br /> STYLISH <br />
+            SUMMER SALE STYLISH <br />
             <span className="font-semibold">WOMENS</span>
           </h1>
           <Link

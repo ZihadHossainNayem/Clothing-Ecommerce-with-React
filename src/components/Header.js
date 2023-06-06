@@ -26,7 +26,7 @@ const Header = () => {
         isActive ? "bg-white py-4 shadow-md" : "bg-none py-6"
       } fixed w-full z-10 transition-all`}
     >
-      <div className="px-4 mx-auto flex items-center justify-between h-full">
+      <div className="px-12 lg:px-40 mx-auto flex items-center justify-between h-full">
         {/* logo */}
         <Link to={"/"}>
           <div>
